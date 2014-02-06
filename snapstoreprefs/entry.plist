@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = snapstoreprefs;
+	cell = PSLinkCell;
+	detail = snapstoreprefsListController;
+	icon = snapstoreprefs.png;
+	isController = 1;
+	label = Snapstore;
+    };
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Intrepidus Snapstore Preferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.s0rcy.snapstoreprefs</string>
+			<key>key</key>
+			<string>saveImage</string>
+			<key>label</key>
+			<string>Save images to Documents</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.s0rcy.snapstoreprefs</string>
+			<key>key</key>
+			<string>neverExpire</string>
+			<key>label</key>
+			<string>Never expire images</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.s0rcy.snapstoreprefs</string>
+			<key>key</key>
+			<string>disableScreenNotif</string>
+			<key>label</key>
+			<string>Disable Screenshot notifications</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>snapstoreprefs</string>
+</dict>
+</plist>
